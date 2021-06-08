@@ -1,4 +1,4 @@
-module user
+module github.com/sagar23sj/github-workflow-demo
 
 go 1.15
 
