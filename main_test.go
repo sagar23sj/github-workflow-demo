@@ -11,7 +11,7 @@ import (
 
 func TestPrintCurrentTime(t *testing.T) {
 
-	mpatch.PatchMethod(time.Now, func() time.Time {
+	_, _ = mpatch.PatchMethod(time.Now, func() time.Time {
 		return time.Date(2020, 11, 01, 00, 00, 00, 0, time.UTC)
 	})
 
