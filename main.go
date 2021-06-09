@@ -10,6 +10,6 @@ func PrintTime() string {
 }
 
 func main() {
-	fmt.Println(PrintTime())
+	fmt.Printf(PrintTime())
 
 }
