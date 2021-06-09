@@ -6,10 +6,10 @@ import (
 )
 
 func PrintTime() string {
-	return fmt.Sprintf("Current Time Is %s: ", time.Now())
+           	return fmt.Sprintf("Current Time Is %s: ", time.Now())
 }
 
 func main() {
-	fmt.Println(PrintTime())
+	       fmt.Println(PrintTime())
 
 }
