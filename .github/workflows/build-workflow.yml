@@ -61,7 +61,7 @@ jobs:
                 needs: [build]
 
                 # Only run this workflow if it is main branch on pull_request event
-                if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'pull_request' }}
+                if: ${{ github.base_ref == 'main' && github.event_name == 'pull_request' }}
 
                 steps: 
                         - uses: 8398a7/action-slack@v3
