@@ -11,4 +11,5 @@ func PrintTime() string {
 
 func main() {
 	fmt.Println(PrintTime())
+
 }
